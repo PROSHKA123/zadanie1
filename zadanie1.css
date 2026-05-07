@@ -1,0 +1,90 @@
+.header {
+    text-align: center;
+    font-size: 52px;
+    color: black;
+    background: yellow;
+    margin-bottom: 10px;
+}
+
+.menu {
+    background: yellow;
+    box-shadow: 4px 4px 4px grey;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px 28px;
+    border: 2px solid greenyellow;
+}
+
+.menu a:hover {
+    background: black;
+    color: yellow;
+}
+
+.left {
+    float: left;
+    width: 120px;
+}
+
+.right {
+    float: right;
+    width: 120px;
+}
+
+.center {
+    overflow: hidden;
+    min-height: 260px;
+    padding: 10px;
+    background: yellow;
+    border: 2px solid black;
+    box-shadow: 4px 4px 2px gray;
+}
+
+.box {
+    background: greenyellow;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px gray;
+    padding: 8px;
+}
+
+.title {
+    background: black;
+    text-align: center;
+    font-weight: bold;
+    color: greenyellow;
+}
+
+.card {
+    position: relative;
+    float: left;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+}
+
+.card img {
+    width: 90px;
+    height: 90px;
+    display: block;
+}
+
+.hint {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: none;
+    background: rgb(154, 154, 0);
+    text-align: center;
+    padding: 4px 0;
+}
+
+.card:hover .hint {
+    display: block;
+}
